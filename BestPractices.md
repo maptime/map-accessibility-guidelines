@@ -17,6 +17,7 @@ Perfection is unattainable but do **_the best of your ability_** to make content
 - [Section IV. Accessibility Principles](#section4)
 - [Section V. Accessibility Techniques](#section5)
 - [Section VI. International Laws and Standards](#section6)  
+- [Section VII. Resources](#section7) 
 
 
 
