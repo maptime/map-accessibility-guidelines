@@ -1,35 +1,51 @@
 # Best Practices in Cartographic Accessibility
 
-It is estimated that 20% of the population has a disability. While not all disabilities make internet use difficult for these populations a large proportion of people are affected in some way. For schools, universities, and government organizations it would not only be unwise to avoid these populations, but in many cases, it would also violate the law while designing content for public consumption.
+It is estimated that 20% of the population has a disability with 8.5% of the population having a disability that directly impacts their use on a computer. While not all disabilities make internet use difficult for these populations a large proportion of people are affected in some way. 
+
+For schools, universities, and government organizations it would not only be unwise to avoid these populations, but in many cases, it would also violate the law while designing content for public consumption.
+
+However, best practices in accessibility can impact **_all_** users in a good way. For example, Apple's iPhone has been designed with accessibility in mind but has created a better experience for all of its users over time.
 
 Listed below is a set of guidelines for developers, cartographers, GIS specialists, geographers, and civic hackers to consider when creating projects that include static and interactive web maps.
 
 ## Introduction:
-Just because your map and/or website is accessible **_does not_** mean that is it usable. Ensure your content is usable first, then focus on making it accessible to your audience. 
+**_Web accessibility benefits everybody._** Your map or site can be compliant and technically accessible yet functionally inaccessible. Just because your map and/or website is accessible **_does not_** mean that is it usable. Ensure your content is usable first, then focus on making it accessible to your audience. 
 
-Perfection is unattainable but do **_the best of your ability_** to make content available to the widest selection of users as possible. To do so, consider accessibility and usability as part of the same conversation.
+**_It's an imperfect world; if your goal is 100% total accessibility before you begin, you have already failed:_** Perfection is unattainable but do *the best of your ability* to make content available to the widest selection of users as possible. To do so, consider accessibility and usability as part of the same conversation.
 
 
-### Table of Contents:
-- [Section I. How to Contribute to the Project](#section1)  
-- [Section II. Project History](#section2)  
-- [Section III. Types of Disabilities](#section3)  
-- [Section IV. Accessibility Principles](#section4)
-- [Section V. Accessibility Techniques](#section5)
-- [Section VI. International Laws and Standards](#section6)  
-- [Section VII. Resources](#section7) 
-
+## Table of Contents:
+- [Section I. Key Takeaways](#section1)  
+- [Section II. How to Contribute to the Project](#section2)  
+- [Section III. Project History](#section3)  
+- [Section IV. Types of Disabilities](#section4)  
+- [Section V. Accessibility Principles](#section5)
+- [Section VI. Accessibility Techniques](#section6)
+- [Section VII. International Laws and Standards](#section7)  
+- [Section VIII. Resources](#section8) 
 
 
 <a name="section1">
-## Section I. How to Contribute to the Project:</a>
+## Section I. Key Takeaways:</a>
+1. Focus on the purpose of the map, what story are you trying to tell? 
+2. Something that is dead on mobile, is dead. 
+3. Usability first, accessibility next.  
+4. Simplicity is best, don't force it. Keep asking: Does everybody need this?
+5. Accessibility is about people. Only people can evaluate true accessibility. WAVE can help facilitate human interaction but it is not the catch-all answer.  
+6. Enable the experience, don't make the experience.  
+7. Keyboard user != Screen reader user, but Keyboard user ≈ Screen reader user.  
+8. There are some things you just can't make accessible.
+
+
+<a name="section2">
+## Section II. How to Contribute to the Project:</a>
 Send us a pull request if you have something to share! You can also contact us at [contact@opentwincities.org](mailto:contact@opentwincities.org) to be added as a contributor to this repository. 
 
 We are especially interested in gathering: code snippets, templates, samples of accessible maps, guidelines, documentation, broader discussions on map accessibility, and much more!
 
 
-<a name="section2"/>
-## Section II. Project History:</a>
+<a name="section3"/>
+## Section III. Project History:</a>
 This project originated in February 2015 as part of the Hennepin County (MN) Geo:Code event. Other groups who have supported or contributed to this project include:
 
 - [Open Twin Cities](http://opentwincities.org)
@@ -37,8 +53,8 @@ This project originated in February 2015 as part of the Hennepin County (MN) Geo
 - *[Your name here...]*
 
 
-<a name="section3" />
-## Section III. Types of Disabilities:</a>
+<a name="section4" />
+## Section IV. Types of Disabilities:</a>
 
 The four major categories of disability types are:
 
@@ -49,24 +65,30 @@ Blindness, low-vision, color-blindness.
 Deafness and hard-of-hearing.
 
 ### 3. Motor:
-Inability to use a mouse, slow response time, limited fine motor control (i.e. Cerebral Palsy, complete paralysis).
+Inability to use a mouse, slow response time, limited fine motor control, Repetition is difficult for these audiences and fatigue is exhibited frequently (i.e. Cerebral Palsy, complete paralysis).
 
 ### 4. Cognitive: 
-Learning disabilities, distractibility, inability to remember or focus on large amounts of information.
+**The largest disability group** which varies greatly and includes: learning disabilities, distractibility, and the inability to remember or focus on large amounts of information. Consistent and simple organization goes a long way with these audiences and focusing on the important content.
 
 
-<a name="section4"/>  
-## Section IV. Accessibility Principles:</a>
+<a name="section5"/>  
+## Section V. Accessibility Principles:</a>
 #### 1. Assign alternative text *[static and interactive maps]*:
 Alternative text provides a textual alternative to non-text content in web pages (i.e. static maps, and/or images). Alternative text is especially helpful for people who are blind and rely on a screen reader to have the content of the website read to them.
 
-#### 2. Implement an appropriate document structure *[interactive maps]*:
-Headings, lists, and other structural elements provide meaning and structure to web pages. The document structure can also facilitate keyboard navigation within the page. 
+When using alternative text, describe the **_content and function_** providing a semantic meaning and description of the images, which is also used by search engines. For example, if you have a thumbnail of a regional park map you could label the image alternative text to reflect the content of the image (i.e. `<alt="Regional park map">`).
 
-For example, don't skip from a `<h1>` tag to a `<h3>` tag without using a `<h2>` tag in between the two. Blind users with screen readers have a difficult time navigating through content when a solid document structure is not set in place. In addition to serving those that are blind, document structure helps organize a page for other users and helps you maintain the page in the future.
+However, not all images are as clear cut. For example, if you have an image of a girl that is being used as context of human health an alternative text of `<alt="girl">` isn't helpful for those with screen readers. In fact, there is no right answer in this case as it is difficult to provide content and/or function to a screen reader so in the case `<alt="">` may be the best option.
+
+#### 2. Implement an appropriate document structure *[interactive maps]*:
+Headings, lists, and other structural elements provide meaning and structure to web pages. Also, **_headings should never be empty_** as empty headings cannot be read by a screen reader. Headings are a key component as they are also read by search engines and can help direct **all** users to your site.
+
+**_Don't skip heading levels:_** The document structure can also facilitate keyboard navigation within the page. For example, don't skip from a `<h1>` tag to a `<h3>` tag without using a `<h2>` tag in between the two. Blind users with screen readers have a difficult time navigating through content when a solid document structure is not set in place. In addition to serving those that are blind, document structure helps organize a page for other users and helps you maintain the page in the future. 
+
+**_However, you can skip backward_** For example, if you have already labeled your heading tags `<h1>`, `<h2>`, `<h3>`, and `<h4>` then you can skip to a `<h3>` tag without labeling the `<h1>` or `<h2>` tags since they are shown earlier in your code.
 
 #### 3. Provide titles and/or headers for data tables *[static and interactive maps]*:
-Try and refrain from using tables as a layout and use them **_strictly_** to display data. Tables that are used to organize tabular data should have appropriate table headers (the `<th>` element). For example:
+Try and refrain from using tables as a layout and use them **_strictly_** to display data that are **logical** and **intuitive**. Tables that are used to organize tabular data should have appropriate table headers (the `<th>` element). For example:
 
 <table>
 <caption>Shelly's Daughters</caption>
@@ -114,15 +136,19 @@ Every link should make sense if the link text is read by itself. Screen reader u
 #### 5. Ensure accessibility of non-HTML content (e.g. PDF files, Microsoft Word documents, and PowerPoint presentations) *[static maps]*:
 In addition to all of the other principles, PDF documents and other non-HTML content **_must be as accessible as possible_**. 
 
-If you cannot make it accessible, consider using HTML instead or, at the very least, provide an accessible alternative. PDF documents should also include a series of tags to make it more accessible. A tagged PDF file looks the same, but it is almost always more accessible to a person using a screen reader.
+If you cannot make it accessible, consider using HTML instead or, at the very least, provide an accessible alternative. PDF documents should also include a series of tags, with organization, to make it more accessible. A tagged PDF file looks the same, but it is almost always more accessible to a person using a screen reader.
 
 #### 6. Allow users to skip repetitive elements on the page *[interactive maps]*:
-You should provide a method that allows users to skip navigation or other elements that repeat on every page. This is usually accomplished by providing a **"Skip to Main Content"** or **"Skip Navigation"** link at the top of the page which jumps to the main content of the page. The "Skip to" navigation allows those with screen readers to get to content easily instead of having to tab through many non-relevant pieces of information.
+You should provide a method that allows users to skip navigation or other elements that repeat on every page. This is usually accomplished by providing a **"Skip to Main Content"** or **"Skip Navigation"** link at the top of the page which jumps to the main content of the page. The "Skip to" navigation allows those with screen readers to get to content easily instead of having to tab through many non-relevant pieces of information. **_Note: Half of skip links don't work as a CSS element of `display:none` disables the skip to content or the `<div id>` has changed over time._**   
 
 If you have data that can be displayed in a table that is provided with your map, you can created a **"Skip to Table"** option to your users.
 
+In addition, ensure **all** content can be accessed without the use of a mouse, use `tab` and directional keyboard buttons (`>` and `<`) to test your application. **_An application should have as much of the same content available to the largest audience as possible._**
+
 #### 7. Do not rely on color alone to convey meaning *[static and interactive maps]*:
-The use of color can enhance comprehension, but do not use color alone to convey information. That information may not be available to a person who is colorblind and will be unavailable to screen reader users.
+The use of color can enhance comprehension, but do not use color alone to convey information. That information may not be available to a person who is colorblind and will be unavailable to screen reader users. 
+
+**_Contrast impacts everybody_**. Common sense is vital when considering color contrast, if you can't differentiate the colors - nobody else will.
 
 In order to showcase additional meaning, you can:
 
@@ -156,10 +182,14 @@ Remember that people have different ways of orienting themselves and absorbing g
 Adding additional content in the form of a table or list for users also provides another resource to blind, and even colorblind users when maps are involved. In this way a larger proportion of your audience can benefit from the content you are displaying, including users who may not be visually impaired at all.
 
 
-<a name="section5"/>  
-## Section V: Accessibility Techniques:</a>
+<a name="section6"/>  
+## Section VI: Accessibility Techniques:</a>
+
 #### Code Snippets:
-*Coming soon!*
+
+1. **Avoid using the following CSS:** `a { outline: 0; }` or  `a { outline: none; }`
+2. **Avoid using empty `<th>`**
+3. **Use the following code:** Set the hover and focus CSS transitions equal to each other (`a:hover, a:focus`). The hover and focus should have the same functionality throughout an application.
 
 #### Samples of Accessible Maps:
 *Coming soon!*
@@ -168,8 +198,8 @@ Adding additional content in the form of a table or list for users also provides
 *Coming soon!*
 
 
-<a name="section6"/>  
-## Section VI. International Laws and Standards:</a>
+<a name="section7"/>  
+## Section VII. International Laws and Standards:</a>
 ### Australia:
 - [Disability Discrimination Act](http://www.austlii.edu.au/au/legis/cth/consol_act/dda1992264) (DDA) of 1992
 - [World Wide Web Access: Disability Discrimination Act Advisory Notes](http://www.hreoc.gov.au/disability_rights/standards/www_3/www_3.html), version 3.2 *(August 2002)*
@@ -211,8 +241,8 @@ Adding additional content in the form of a table or list for users also provides
 	- [Section 508](http://www.section508.gov)  
 
 
-<a name="section7"/>  
-## Section VII. Resources:</a>
+<a name="section8"/>  
+## Section VIII. Resources:</a>
 ### Cartography:
 - *Coming soon!*
 
