@@ -226,12 +226,13 @@ Adding additional content in the form of a table or list for users also provides
 <a name="section6"/>  
 ## Section VI. Resources:</a>
 ### Cartography:
-- *Coming soon!*
+- [Why Website Design Needs to Go Beyond Color](http://mashable.com/2014/04/22/web-designing-colorblindness) (Mashable article)
 
 ### Browser Extensions:
 - Accessibility Developer Tools ([Chrome](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb))
 - ChromeVox ([Chrome](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn))
 - Color Contrast Analyzer ([Chrome](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll))
+- Color Enhancer ([Article](http://www.cio.com/article/2919589/chrome/this-chrome-extension-helps-color-blind-users-see-the-web.html), [Chrome](https://chrome.google.com/webstore/detail/color-enhancer/ipkjmjaledkapilfdigkgfmpekpfnkih))
 - ColorZilla (Firefox, [Chrome](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp))
 - NoCoffee ([Chrome](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl))
 - WAVE Evaluation Tool ([Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh))
