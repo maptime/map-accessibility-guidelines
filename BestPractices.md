@@ -172,7 +172,7 @@ Adding additional content in the form of a table or list for users also provides
 
 #### Code Snippets:
 
-1. **Outline**: Avoid using the following CSS as it will affect blind audiences visiting your site.** `a { outline: 0; }` or  `a { outline: none; }`
+1. **Outline**: Avoid using the following CSS as it will affect blind audiences visiting your site. `a { outline: 0; }` or  `a { outline: none; }`
 2. **Headers**: Avoid using empty headers (`<th>`).
 3. <a name="code1"/>  **Focus**</a>:  A **great best practice to use.** A way to make your user experience similar for *many* different visitors.
 	- The default focus may need to be changed if it cannot be seen *clearly* by a user. Sometimes adding a border to the CSS, including changing the color goes a long way (e.g. `:focus { border: 2px dotted #000; }`)
