@@ -125,7 +125,8 @@ You should provide a method that allows users to skip navigation or other elemen
 
 If you have data that can be displayed in a table that is provided with your map, you can created a **"Skip to Table"** option to your users.
 
-In addition, ensure **all** content can be accessed without the use of a mouse, use `tab` and directional keyboard buttons (`>` and `<`) to test your application. **_An application should have as much of the same content available to the largest audience as possible._**
+In addition, ensure **all** content can be accessed without the use of a mouse, use `tab` and directional keys (`+`, `-`, `↑`, `↓`, `←`, and `→`) to test your application and/or map. **_An application should have as much of the same content available to the largest audience as possible._**
+
 
 #### 7. Do not rely on color alone to convey meaning *[static and interactive maps]*:
 The use of color can enhance comprehension, but do not use color alone to convey information. That information may not be available to a person who is colorblind and will be unavailable to screen reader users. 
@@ -155,6 +156,8 @@ In order to showcase additional meaning, you can:
 #### 10. Make JavaScript as accessible as possible *[interactive maps]*:
 Make your best effort to ensure that [JavaScript event handlers](http://webaim.org/techniques/javascript/eventhandlers) are device independent (i.e. events do not require the use of a mouse) and that your page does not rely on JavaScript to function. (**_Note:_** This is not always possible with interactive maps but make your best effort while designing your map if other alternatives are possible).
 
+The hover and focus should have the same functionality throughout an application *([see code snippet below](#code1))*.
+
 #### 11. Design to standards *[static and interactive maps]*:
 HTML-compliant and accessible pages are more robust and provide better search engine optimization. [Cascading Style Sheets](http://webaim.org/techniques/css) (CSS) allow you to separate content from presentation. This provides more flexibility and accessibility of your content.
 
@@ -169,12 +172,17 @@ Adding additional content in the form of a table or list for users also provides
 
 #### Code Snippets:
 
-1. **Avoid using the following CSS:** `a { outline: 0; }` or  `a { outline: none; }`
-2. **Avoid using empty `<th>`**
-3. **Use the following code:** Set the hover and focus CSS transitions equal to each other (`a:hover, a:focus`). The hover and focus should have the same functionality throughout an application.
+1. **Outline**: Avoid using the following CSS as it will affect blind audiences visiting your site.** `a { outline: 0; }` or  `a { outline: none; }`
+2. **Headers**: Avoid using empty headers (`<th>`).
+3. <a name="code1"/>  **Focus**</a>:  A **great best practice to use.** A way to make your user experience similar for *many* different visitors.
+	- The default focus may need to be changed if it cannot be seen *clearly* by a user. Sometimes adding a border to the CSS, including changing the color goes a long way (e.g. `:focus { border: 2px dotted #000; }`)
+	- Set the hover and focus CSS transitions equal to each other (`:hover, :focus`). The hover and focus should have the same functionality throughout an application.
 
 #### Samples of Accessible Maps:
 *Coming soon!*
+
+#### Before and After Samples:  
+*Maps improved for accessibility (Coming soon)!*
 
 #### Templates
 *Coming soon!*
@@ -226,6 +234,7 @@ Adding additional content in the form of a table or list for users also provides
 <a name="section6"/>  
 ## Section VI. Resources:</a>
 ### Cartography:
+- [National Park Service Accessibility](https://github.com/nationalparkservice/npmap.js/wiki/Accessibility) (GitHub Wiki)
 - [Why Website Design Needs to Go Beyond Color](http://mashable.com/2014/04/22/web-designing-colorblindness) (Mashable article)
 
 ### Browser Extensions:
@@ -248,5 +257,6 @@ Adding additional content in the form of a table or list for users also provides
 
 ### General Web:
 - [Accessibility in User-Centered Design Using Personas](http://www.uiaccess.com/accessucd/personas.html)
+- [Accessible Rich Internet Applications](http://www.w3.org/TR/wai-aria) (WAI-ARIA 1.0)
 - [WebAIM](http://webaim.org)
 - [Web Content Accessibility Guidelines](http://www.w3.org/TR/WCAG20) (WCAG 2.0)
