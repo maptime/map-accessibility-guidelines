@@ -14,15 +14,13 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 **_It's an imperfect world; if your goal is 100% total accessibility before you begin, you have already failed:_** Perfection is unattainable but do *the best of your ability* to make content available to the widest selection of users as possible. To do so, consider accessibility and usability as part of the same conversation.
 
 
-## Table of Contents:
+### Table of Contents:
 - [Section I. Key Takeaways](#section1)  
-- [Section II. How to Contribute to the Project](#section2)  
-- [Section III. Project History](#section3)  
-- [Section IV. Types of Disabilities](#section4)  
-- [Section V. Accessibility Principles](#section5)
-- [Section VI. Accessibility Techniques](#section6)
-- [Section VII. International Laws and Standards](#section7)  
-- [Section VIII. Resources](#section8) 
+- [Section II. Types of Disabilities](#section2)  
+- [Section III. Accessibility Principles](#section3)
+- [Section IV. Accessibility Techniques](#section4)
+- [Section V. International Laws and Standards](#section5)  
+- [Section VI. Resources](#section6) 
 
 
 <a name="section1">
@@ -37,24 +35,8 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 8. There are some things you just can't make accessible.
 
 
-<a name="section2">
-## Section II. How to Contribute to the Project:</a>
-Send us a pull request if you have something to share! You can also contact us at [contact@opentwincities.org](mailto:contact@opentwincities.org) to be added as a contributor to this repository. 
-
-We are especially interested in gathering: code snippets, templates, samples of accessible maps, guidelines, documentation, broader discussions on map accessibility, and much more!
-
-
-<a name="section3"/>
-## Section III. Project History:</a>
-This project originated in February 2015 as part of the Hennepin County (MN) Geo:Code event. Other groups who have supported or contributed to this project include:
-
-- [Open Twin Cities](http://opentwincities.org)
-- [Maptime MSP](http://www.meetup.com/MaptimeMSP)
-- *[Your name here...]*
-
-
-<a name="section4" />
-## Section IV. Types of Disabilities:</a>
+<a name="section2" />
+## Section II. Types of Disabilities:</a>
 
 The four major categories of disability types are:
 
@@ -71,8 +53,8 @@ Inability to use a mouse, slow response time, limited fine motor control, Repeti
 **The largest disability group** which varies greatly and includes: learning disabilities, distractibility, and the inability to remember or focus on large amounts of information. Consistent and simple organization goes a long way with these audiences and focusing on the important content.
 
 
-<a name="section5"/>  
-## Section V. Accessibility Principles:</a>
+<a name="section3"/>  
+## Section III. Accessibility Principles:</a>
 #### 1. Assign alternative text *[static and interactive maps]*:
 Alternative text provides a textual alternative to non-text content in web pages (i.e. static maps, and/or images). Alternative text is especially helpful for people who are blind and rely on a screen reader to have the content of the website read to them.
 
@@ -182,8 +164,8 @@ Remember that people have different ways of orienting themselves and absorbing g
 Adding additional content in the form of a table or list for users also provides another resource to blind, and even colorblind users when maps are involved. In this way a larger proportion of your audience can benefit from the content you are displaying, including users who may not be visually impaired at all.
 
 
-<a name="section6"/>  
-## Section VI: Accessibility Techniques:</a>
+<a name="section4"/>  
+## Section IV: Accessibility Techniques:</a>
 
 #### Code Snippets:
 
@@ -198,8 +180,8 @@ Adding additional content in the form of a table or list for users also provides
 *Coming soon!*
 
 
-<a name="section7"/>  
-## Section VII. International Laws and Standards:</a>
+<a name="section5"/>  
+## Section V. International Laws and Standards:</a>
 ### Australia:
 - [Disability Discrimination Act](http://www.austlii.edu.au/au/legis/cth/consol_act/dda1992264) (DDA) of 1992
 - [World Wide Web Access: Disability Discrimination Act Advisory Notes](http://www.hreoc.gov.au/disability_rights/standards/www_3/www_3.html), version 3.2 *(August 2002)*
@@ -241,8 +223,8 @@ Adding additional content in the form of a table or list for users also provides
 	- [Section 508](http://www.section508.gov)  
 
 
-<a name="section8"/>  
-## Section VIII. Resources:</a>
+<a name="section6"/>  
+## Section VI. Resources:</a>
 ### Cartography:
 - *Coming soon!*
 
