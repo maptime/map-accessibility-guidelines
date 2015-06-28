@@ -9,7 +9,7 @@ However, best practices in accessibility can impact **_all_** users in a good wa
 Listed below is a set of guidelines for developers, cartographers, GIS specialists, geographers, and civic hackers to consider when creating projects that include static and interactive web maps.
 
 ## Introduction:
-**_Web accessibility benefits everybody._** Your map or site can be compliant and technically accessible yet functionally inaccessible. Just because your map and/or website is accessible **_does not_** mean that is it usable. Ensure your content is usable first, then focus on making it accessible to your audience. 
+**_Web accessibility benefits everybody._** Your map or site can be compliant and technically accessible yet functionally inaccessible. Just because your map and/or website is accessible **_does not_** mean that is it usable. Ensure your content is usable first, then focus on making it accessible to your audience. Accessibility is not a barrier to innovation, design constraints will give you new ideas to explore that will lead to better products for your audience.
 
 **_It's an imperfect world; if your goal is 100% total accessibility before you begin, you have already failed:_** Perfection is unattainable but do *the best of your ability* to make content available to the widest selection of users as possible. To do so, consider accessibility and usability as part of the same conversation.
 
@@ -26,13 +26,14 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 <a name="section1">
 ## Section I. Key Takeaways:</a>
 1. Focus on the purpose of the map, what story are you trying to tell? 
-2. Something that is dead on mobile, is dead. 
-3. Usability first, accessibility next.  
-4. Simplicity is best, don't force it. Keep asking: Does everybody need this?
-5. Accessibility is about people. Only people can evaluate true accessibility. WAVE can help facilitate human interaction but it is not the catch-all answer.  
-6. Enable the experience, don't make the experience.  
-7. Keyboard user != Screen reader user, but Keyboard user ≈ Screen reader user.  
-8. There are some things you just can't make accessible.
+2. Design for a diverse set of users who will interact with your map(s).
+3. Something that is dead on mobile, is dead. 
+4. Accessibility is not a barrier to innovation. Think usability first, accessibility next.  
+5. Simplicity is best, don't force it. Keep asking: Does everybody need this?
+6. Accessibility is about people. Only people can evaluate true accessibility. WAVE can help facilitate human interaction but it is not the catch-all answer.  
+7. Enable the experience, don't make the experience.  
+8. Keyboard user != Screen reader user, but Keyboard user ≈ Screen reader user.
+9. There are some things you just can't make accessible.
 
 
 <a name="section2" />
@@ -115,10 +116,10 @@ Data cells should be associated with their appropriate headers, making it easier
 #### 4. Ensure links make sense out of context *[interactive maps]*:
 Every link should make sense if the link text is read by itself. Screen reader users may choose to read only the links on a web page. Certain phrases like "click here" and "more" **_must_** be avoided.  
 
-#### 5. Ensure accessibility of non-HTML content (e.g. PDF files, Microsoft Word documents, and PowerPoint presentations) *[static maps]*:
-In addition to all of the other principles, PDF documents and other non-HTML content **_must be as accessible as possible_**. 
+#### 5. Ensure accessibility of non-HTML content (e.g. PDF files, forms, Microsoft Word documents, and PowerPoint presentations) *[static maps]*:
+In addition to all of the other principles, PDF documents, forms, and other non-HTML content **_must be as accessible as possible_**. 
 
-If you cannot make it accessible, consider using HTML instead or, at the very least, provide an accessible alternative. PDF documents should also include a series of tags, with organization, to make it more accessible. A tagged PDF file looks the same, but it is almost always more accessible to a person using a screen reader.
+If you cannot make it accessible, consider using HTML instead or, at the very least, provide an accessible alternative. PDF documents and forms should also include a series of labels, with organization, to make it more accessible. A PDF file with labels looks the same, but it is almost always more accessible to a person using a screen reader.
 
 #### 6. Allow users to skip repetitive elements on the page *[interactive maps]*:
 You should provide a method that allows users to skip navigation or other elements that repeat on every page. This is usually accomplished by providing a **"Skip to Main Content"** or **"Skip Navigation"** link at the top of the page which jumps to the main content of the page. The "Skip to" navigation allows those with screen readers to get to content easily instead of having to tab through many non-relevant pieces of information. **_Note: Half of skip links don't work as a CSS element of `display:none` disables the skip to content or the `<div id>` has changed over time._**   
@@ -128,10 +129,10 @@ If you have data that can be displayed in a table that is provided with your map
 In addition, ensure **all** content can be accessed without the use of a mouse, use `tab` and directional keys (`+`, `-`, `↑`, `↓`, `←`, and `→`) to test your application and/or map. **_An application should have as much of the same content available to the largest audience as possible._**
 
 
-#### 7. Do not rely on color alone to convey meaning *[static and interactive maps]*:
-The use of color can enhance comprehension, but do not use color alone to convey information. That information may not be available to a person who is colorblind and will be unavailable to screen reader users. 
+#### 7. Do not use color as the only visual means of conveying information *[static and interactive maps]*:
+While we use color to highlight or compliment what is already visible, do not use color alone to convey information. That information may not be available to a person who is colorblind and will be unavailable to screen reader users. 
 
-**_Contrast impacts everybody_**. Common sense is vital when considering color contrast, if you can't differentiate the colors - nobody else will.
+**_Contrast impacts everybody_**. Ensure sufficient contrast exists between text and its background. Common sense is vital when considering color contrast, if you can't differentiate the colors - nobody else will.
 
 In order to showcase additional meaning, you can:
 
@@ -156,7 +157,7 @@ In order to showcase additional meaning, you can:
 #### 10. Make JavaScript as accessible as possible *[interactive maps]*:
 Make your best effort to ensure that [JavaScript event handlers](http://webaim.org/techniques/javascript/eventhandlers) are device independent (i.e. events do not require the use of a mouse) and that your page does not rely on JavaScript to function. (**_Note:_** This is not always possible with interactive maps but make your best effort while designing your map if other alternatives are possible).
 
-The hover and focus should have the same functionality throughout an application *([see code snippet below](#code1))*.
+**Don't make people hover to find things.** The hover and focus should have the same functionality throughout an application *([see code snippet below](#code1))*. Simple things should be simple, complex things should be *possible*.
 
 #### 11. Design to standards *[static and interactive maps]*:
 HTML-compliant and accessible pages are more robust and provide better search engine optimization. [Cascading Style Sheets](http://webaim.org/techniques/css) (CSS) allow you to separate content from presentation. This provides more flexibility and accessibility of your content.
@@ -174,7 +175,7 @@ Adding additional content in the form of a table or list for users also provides
 
 1. **Outline**: Avoid using the following CSS as it will affect blind audiences visiting your site. `a { outline: 0; }` or  `a { outline: none; }`
 2. **Headers**: Avoid using empty headers (`<th>`).
-3. <a name="code1"/>  **Focus**</a>:  A **great best practice to use.** A way to make your user experience similar for *many* different visitors.
+3. <a name="code1"/>  **Focus**</a>:  A **great best practice to use.** A way to make your user experience similar for *many* different visitors is to provide visual focus indication for keyboard focus.
 	- The default focus may need to be changed if it cannot be seen *clearly* by a user. Sometimes adding a border to the CSS, including changing the color goes a long way (e.g. `:focus { border: 2px dotted #000; }`)
 	- Set the hover and focus CSS transitions equal to each other (`:hover, :focus`). The hover and focus should have the same functionality throughout an application.
 
