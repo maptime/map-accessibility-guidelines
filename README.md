@@ -3,6 +3,11 @@ A set of guidelines for developers, cartographers, GIS specialists, geographers,
 
 Guidelines and resources are located in this project's wiki.  Please look there for more information!
 
+## Join us at NACIS this fall!
+We will be presenting at the 2015 NACIS Conference in Minneapolis this fall in the **[Community-Oriented Cartography](http://sched.co/3l8M)** session with our abstract titled *Starting Conversations for More Accessible Maps*. 
+
+Learn [more](http://nacis2015.sched.org) about NACIS, and join us on a journey to make maps more accessible this October! :-D
+
 ## Want to contribute to this project?
 Please contact us or send us a pull request if you have something to share!  E-mail contact [at] opentwincities.org to be added as a contributor to this repository.  We're especially interested in gathering:
 
@@ -12,7 +17,8 @@ Please contact us or send us a pull request if you have something to share!  E-m
 
 
 ## Project history
-This project originated in Feburary 2015 as part of the Hennepin County (MN) Geo:Code event.  Other groups who have supported or contributed to this project include:
-* Open Twin Cities
-* Maptime MSP
+This project originated in Feburary 2015 as part of the Hennepin County (MN) Geo:Code event.  Other groups who have supported or contributed to this project include:  
+* Open Twin Cities  
+* Maptime MSP  
+* Maptime HQ  
 * [Your name here...]
