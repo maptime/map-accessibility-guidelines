@@ -251,6 +251,7 @@ Adding additional content in the form of a table or list for users also provides
 - [Color Brewer](http://colorbrewer2.org) 
 - [Color Oracle](http://www.colororacle.org) (software download)
 - [Color Picker for Data](http://tristen.ca/hcl-picker)
+- [Color Blind Simulator](http://www.etre.com/tools/colourblindsimulator)
 
 ### Color Contrast:
 - [Colorable](http://jxnblk.com/colorable)
