@@ -200,8 +200,9 @@ Adding additional content in the form of a table or list for users also provides
 	  height: 0; }
 	</pre>
 
-	*JavaScript* (Note: Remove the '*' before the `<img class>`'s below):
-    <pre>
+	*JavaScript*:
+    
+    ```javascript
 	var userDefinedZoomMap = L.map('zoom', {zoomControl: false, scrollWheelZoom: false});
 
 	L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(userDefinedZoomMap);
@@ -232,16 +233,16 @@ Adding additional content in the form of a table or list for users also provides
 	
 	var minusUri = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYJFgAjZzgQwAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAvSURBVEjHY2AYBaNgFIyCUcDAwMAQzsDA8J8InIPPECZ6uZZpNMJGwSgYBSMAAADZ/wm/p4Wt3gAAAABJRU5ErkJggg=='
 	
-    var zoomIn = L.easyButton('<*img class="zoom-in zoom-btn" src="'+ plusUri +'" alt="zoom in"/>',
+    var zoomIn = L.easyButton('<img class="zoom-in zoom-btn" src="'+ plusUri +'" alt="zoom in"/>',
                           function(control, map){map.setZoom(map.getZoom()+1);});
-	var zoomOut = L.easyButton('<*img class="zoom-out zoom-btn" src="' + minusUri + '" alt="zoom in"/>',
+	var zoomOut = L.easyButton('<img class="zoom-out zoom-btn" src="' + minusUri + '" alt="zoom in"/>',
                            function(control, map){map.setZoom(map.getZoom()-1);});
     var zoomBar = L.easyBar([ zoomIn, zoomOut, ]);
 
 	zoomBar.addTo(userDefinedZoomMap);
 
 	userDefinedZoomMap.setView({lat:50, lng:0}, 2); 
-	</pre>
+	```
 
 #### Samples of Accessible Maps:
 *Coming soon!*
