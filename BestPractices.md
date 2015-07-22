@@ -19,8 +19,7 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 - [Section II. Types of Disabilities](#section2)  
 - [Section III. Accessibility Principles](#section3)
 - [Section IV. Accessibility Techniques](#section4)
-- [Section V. International Laws and Standards](#section5)  
-- [Section VI. Resources](#section6) 
+- [Section V. Resources](#section5) 
 
 
 <a name="section1">
@@ -255,50 +254,7 @@ Adding additional content in the form of a table or list for users also provides
 
 
 <a name="section5"/>  
-## Section V. International Laws and Standards:</a>
-### Australia:
-- [Disability Discrimination Act](http://www.austlii.edu.au/au/legis/cth/consol_act/dda1992264) (DDA) of 1992
-- [World Wide Web Access: Disability Discrimination Act Advisory Notes](http://www.hreoc.gov.au/disability_rights/standards/www_3/www_3.html), version 3.2 *(August 2002)*
-
-### Canada:
-- [Canadian Human Rights Act](http://laws.justice.gc.ca/en/H-6/243963.html) of 1977
-- [Ontarians with Disailities Act](http://www.e-laws.gov.on.ca/DBLaws/Statutes/English/01o32_e.htm) of 2001
-- [Government of Canada Internet Guide](http://www.gol-ged.gc.ca/index_e.asp)
-- [Canada's Common Look and Feel Guidelines](http://www.tbs-sct.gc.ca/clf-nsi/index_e.asp)
-	- [Provisions for accessibility](http://www.tbs-sct.gc.ca/clf-nsi/inter/inter-01-tb_e.asp)
-
-### Germany:
-- [Federal Ordinance on Barrier-Free Information Technology](http://www.einfach-fuer-alle.de/artikel/bitv_english)
-
-### Ireland:
-- [Irish National Disability Authority IT Accessibility Guidelines](http://www.accessit.nda.ie/policy_and_legislation.html)
-
-### Japan:
-- [Web Access by People with Disabilities](http://www.legco.gov.hk/yr00-01/english/panels/itb/papers/a774-02e.pdf) *(March 12, 2001)*
-- [Government concerns about enhancing web accessibility](http://www.info.gov.hk/gia/general/200109/30/0929144.htm), *Press release*
-- [Basic Law on the Formation of an Advanced Information and Telecommunications Network Society](http://www.kantei.go.jp/foreign/it/it_basiclaw/it_basiclaw.html) *(January 6, 2001)*
-
-### New Zealand:
-- [E-Government Initiative of New Zealand](http://www.e-government.govt.nz/) (web guidelines)
-
-### Portugal:
-- [Accessibility of Public Administration Web Sites for Citizens with Special Needs](http://www.acesso.umic.pcm.gov.pt/acesso/res9799_en.htm)
-
-### United Kingdom:
-- [Disability Discrimination Act (DDA)](http://www.hmso.gov.uk/acts/acts1995/Ukpga_19950050_en_1.htm) of 1995
-- [Accessibility as a legal requirement in UK](http://lists.w3.org/Archives/Public/w3c-wai-ig/2003JanMar/0022.html) *(October 1, 1999)*
-- [Special Educational Needs and Disability Act](http://www.hmso.gov.uk/acts/acts2001/20010010.htm) of 2001
-- [Disability Rights Commission (DRC) Code of Practice](http://www.drc-gb.org/uploaded_files/documents/2008_223_drc_cop_rights_of_Access.doc)
-
-###United States of America: 
-- [The Americans with Disabilities Act (ADA)](http://webaim.org/articles/laws/usa/ada)*, WebAIM summary*  
-- [Rehabilitation Act of 1973](#)
-	- [Section 504](http://www.dol.gov/oasam/regs/statutes/sec504.htm)
-	- [Section 508](http://www.section508.gov)  
-
-
-<a name="section6"/>  
-## Section VI. Resources:</a>
+## Section V. Resources:</a>
 ### Cartography:
 - [National Park Service Accessibility](https://github.com/nationalparkservice/npmap.js/wiki/Accessibility) (GitHub Wiki)
 - [Why Website Design Needs to Go Beyond Color](http://mashable.com/2014/04/22/web-designing-colorblindness) (Mashable article)
