@@ -255,6 +255,10 @@ Adding additional content in the form of a table or list for users also provides
 
 <a name="section5"/>  
 ## Section V. Resources:</a>
+
+### Accessibility:
+- [This Blind Teenager Is On A Mission To Make Apps Accessible](http://www.fastcoexist.com/3048596/this-blind-teenager-is-on-a-mission-to-make-apps-accessible) (article)
+
 ### Cartography:
 - [National Park Service Accessibility](https://github.com/nationalparkservice/npmap.js/wiki/Accessibility) (GitHub Wiki)
 - [Why Website Design Needs to Go Beyond Color](http://mashable.com/2014/04/22/web-designing-colorblindness) (Mashable article)
