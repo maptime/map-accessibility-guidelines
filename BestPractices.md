@@ -19,7 +19,6 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 - [Section II. Types of Disabilities](#section2)  
 - [Section III. Accessibility Principles](#section3)
 - [Section IV. Accessibility Techniques](#section4)
-- [Section V. Resources](#section5) 
 
 
 <a name="section1">
@@ -258,39 +257,3 @@ Color plays an incredibly important role in the world and can sway thinking, cha
 
 #### Templates
 *Coming soon!*
-
-
-<a name="section5"/>  
-## Section V. Resources:</a>
-
-### Accessibility:
-- [This Blind Teenager Is On A Mission To Make Apps Accessible](http://www.fastcoexist.com/3048596/this-blind-teenager-is-on-a-mission-to-make-apps-accessible) (article)
-
-### Cartography:
-- [National Park Service Accessibility](https://github.com/nationalparkservice/npmap.js/wiki/Accessibility) (GitHub Wiki)
-- [Why Website Design Needs to Go Beyond Color](http://mashable.com/2014/04/22/web-designing-colorblindness) (Mashable article)
-
-### Browser Extensions:
-- Accessibility Developer Tools ([Chrome](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb))
-- ChromeVox ([Chrome](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn))
-- Color Contrast Analyzer ([Chrome](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll))
-- Color Enhancer ([Article](http://www.cio.com/article/2919589/chrome/this-chrome-extension-helps-color-blind-users-see-the-web.html), [Chrome](https://chrome.google.com/webstore/detail/color-enhancer/ipkjmjaledkapilfdigkgfmpekpfnkih))
-- ColorZilla (Firefox, [Chrome](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp))
-- NoCoffee ([Chrome](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl))
-- WAVE Evaluation Tool ([Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh))
-
-### Color Blindness:
-- [Color Brewer](http://colorbrewer2.org) 
-- [Color Oracle](http://www.colororacle.org) (software download)
-- [Color Picker for Data](http://tristen.ca/hcl-picker)
-- [Color Blind Simulator](http://www.etre.com/tools/colourblindsimulator)
-
-### Color Contrast:
-- [Colorable](http://jxnblk.com/colorable)
-- [Tangaru Contrast-Finder](http://contrast-finder.tanaguru.com)
-
-### General Web:
-- [Accessibility in User-Centered Design Using Personas](http://www.uiaccess.com/accessucd/personas.html)
-- [Accessible Rich Internet Applications](http://www.w3.org/TR/wai-aria) (WAI-ARIA 1.0)
-- [WebAIM](http://webaim.org)
-- [Web Content Accessibility Guidelines](http://www.w3.org/TR/WCAG20) (WCAG 2.0)
