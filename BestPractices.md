@@ -15,10 +15,9 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 
 
 ### Table of Contents:
-- [Section I. Key Takeaways](#section1)  
-- [Section II. Types of Disabilities](#section2)  
-- [Section III. Accessibility Principles](#section3)
-- [Section IV. Accessibility Techniques](#section4)
+- [Section I. Key Takeaways](#section1)
+- [Section II. Accessibility Principles](#section2)
+- [Section III. Accessibility Techniques](#section3)
 
 
 <a name="section1">
@@ -34,26 +33,8 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 9. There are some things you just can't make accessible.
 
 
-<a name="section2" />
-## Section II. Types of Disabilities:</a>
-
-The four major categories of disability types are:
-
-### 1. Visual:
-Blindness, low-vision, color-blindness.
-
-### 2. Hearing:
-Deafness and hard-of-hearing.
-
-### 3. Motor:
-Inability to use a mouse, slow response time, limited fine motor control, Repetition is difficult for these audiences and fatigue is exhibited frequently (i.e. Cerebral Palsy, complete paralysis).
-
-### 4. Cognitive: 
-**The largest disability group** which varies greatly and includes: learning disabilities, distractibility, and the inability to remember or focus on large amounts of information. Consistent and simple organization goes a long way with these audiences and focusing on the important content.
-
-
-<a name="section3"/>  
-## Section III. Accessibility Principles:</a>
+<a name="section2"/>  
+## Section II. Accessibility Principles:</a>
 #### 1. Assign alternative text *[static and interactive maps]*:
 Alternative text provides a textual alternative to non-text content in web pages (i.e. static maps, and/or images). Alternative text is especially helpful for people who are blind and rely on a screen reader to have the content of the website read to them.
 
@@ -173,8 +154,8 @@ Color plays an incredibly important role in the world and can sway thinking, cha
 ![yahoo-google-icon](https://cloud.githubusercontent.com/assets/5023024/8877212/dea3ca6a-31e9-11e5-969c-2ca63a5e2982.png)
 
 
-<a name="section4"/>  
-## Section IV: Accessibility Techniques:</a>
+<a name="section3"/>  
+## Section III: Accessibility Techniques:</a>
 
 #### Code Snippets:
 
