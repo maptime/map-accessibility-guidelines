@@ -8,13 +8,6 @@ We will be presenting at the 2015 NACIS Conference in Minneapolis this fall in t
 
 Learn [more](http://nacis2015.sched.org) about NACIS, and join us on a journey to make maps more accessible this October! :-D
 
-## Want to contribute to this project?
-Please contact us or send us a pull request if you have something to share!  E-mail contact [at] opentwincities.org to be added as a contributor to this repository.  We're especially interested in gathering:
-
-1) code snippets, templates and examples of accessible maps in the repo
-
-2) guidelines, documentation, and broader discussion on map accessibility in the wiki
-
 
 ## Project history
 This project originated in Feburary 2015 as part of the Hennepin County (MN) Geo:Code event.  Other groups who have supported or contributed to this project include:  
