@@ -154,6 +154,12 @@ Color plays an incredibly important role in the world and can sway thinking, cha
 ![yahoo-google-icon](https://cloud.githubusercontent.com/assets/5023024/8877212/dea3ca6a-31e9-11e5-969c-2ca63a5e2982.png)
 
 
+#### 14. Think Mobile First! *[static and interactive maps]*:
+**Don't assume all users have ready access to desktop or laptop computers.** Be aware that your users may only have Internet access via phones or other mobile devices.  Keep them in mind when building accessible maps!
+
+In fact, as of 2013:
+> "34% of cell internet users go online mostly using their phones, and not using some other device such as a desktop or laptop computer." -[Pew Research Center](http://www.pewinternet.org/fact-sheets/mobile-technology-fact-sheet) 
+
 <a name="section3"/>  
 ## Section III: Accessibility Techniques:</a>
 
