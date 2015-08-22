@@ -1,4 +1,4 @@
-# Best Practices in Cartographic Accessibility 2015
+# Best Practices in Cartographic Accessibility  
 
 It is estimated that 20% of the population has a disability with 8.5% of the population having a disability that directly impacts their use on a computer. While not all disabilities make internet use difficult for these populations a large proportion of people are affected in some way. 
 
@@ -231,7 +231,9 @@ Color plays an incredibly important role in the world and can sway thinking, cha
 	```
 
 #### Samples of Accessible Maps:
-*Coming soon!*
+*More samples coming soon!*
+
+1. Minnesota Department of Health's MN Public Health Data Access (e.g. [Asthma Hospitalizations](https://apps.health.state.mn.us/mndata/webmap/asthma.html))
 
 #### Before and After Samples:  
 *Maps improved for accessibility (Coming soon)!*
