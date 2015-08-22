@@ -1,7 +1,7 @@
 # Map Accessibility Guidelines
 A set of guidelines for developers, cartographers, GIS specialists, geographers, and civic hackers to consider when creating projects that include web maps.
 
-Check out some [Best Practices](/BestPractices.md) and the [Wiki](../../wiki) for some guidelines and resources we've put together.
+Check out some [Best Practices](/BestPractices.md), our [Wiki site](../../wiki), and some [key resources](../../wiki/Resources) for some guidelines and resources we've put together.
 
 ## NACIS Presentation
 On **Thurs, Oct. 15th, 2015** from **4:00-5:10 p.m.** we will be presenting at the [NACIS Conference](http://www.nacis.org) in Minneapolis in the **[Community-Oriented Cartography](http://sched.co/3l8M)** session with our abstract titled *Starting Conversations for More Accessible Maps*. 
