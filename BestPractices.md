@@ -142,9 +142,10 @@ Make your best effort to ensure that [JavaScript event handlers](http://webaim.o
 HTML-compliant and accessible pages are more robust and provide better search engine optimization. [Cascading Style Sheets](http://webaim.org/techniques/css) (CSS) allow you to separate content from presentation. This provides more flexibility and accessibility of your content.
 
 #### 12. Supplement a visual display with a table or list *[static and interactive maps]*:
-Remember that people have different ways of orienting themselves and absorbing geographic information. Don't let the map be your only format for data display, supplement your map with a table and/or list (i.e. directions/routing, data display, etc.).
+Remember that people have different ways of orienting themselves and absorbing geographic information, including percieving space and spatial concepts. **Don't let the map be your only format for data display**, supplement your map with a table and/or list (i.e. directions/routing, data display, etc.).
 
 Adding additional content in the form of a table or list for users also provides another resource to blind, and even colorblind users when maps are involved. In this way a larger proportion of your audience can benefit from the content you are displaying, including users who may not be visually impaired at all.
+
 
 #### 13. Color matters! *[static and interactive maps]*:
 **People see color before they absorb anything else**. Many of the most recognizable brands in the world rely on color for instant recognition. 
