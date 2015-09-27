@@ -19,3 +19,5 @@ A good example within your content could be:
 <!-- A full example of the alternative text tag -->
 <img src="/images/park_map.png" alt="Regional park map" width="400" height="800" border="0">
 ```
+
+Return to the [Best Practices](../BestPractices.md) homepage.

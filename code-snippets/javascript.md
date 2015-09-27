@@ -21,3 +21,5 @@ For example:
 	/* CSS goes here */
 }
 ```
+
+Return to the [Best Practices](../BestPractices.md) homepage.

@@ -12,3 +12,5 @@ Learn more about [GitHub](http://www.github.com).
 ```html
 Learn more about <a href="http://www.github.com">GitHub</a>.
 ```
+
+Return to the [Best Practices](../BestPractices.md) homepage.

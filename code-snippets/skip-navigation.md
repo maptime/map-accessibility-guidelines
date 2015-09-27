@@ -36,3 +36,5 @@ If you have data that can be displayed in a table that is provided with your map
 ## General Accessibility
 
 In addition, ensure **all** content can be accessed without the use of a mouse, use `tab` and directional keys (`+`, `-`, `↑`, `↓`, `←`, and `→`) to test your application and/or map. **_An application should have as much of the same content available to the largest audience as possible._**
+
+Return to the [Best Practices](../BestPractices.md) homepage.

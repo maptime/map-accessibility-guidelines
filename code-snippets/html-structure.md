@@ -65,3 +65,5 @@ A good example of heading structure could be:
   </body>
 </html>
 ```
+
+Return to the [Best Practices](../BestPractices.md) homepage.

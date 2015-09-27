@@ -50,3 +50,5 @@ For example, with Leaflet:
 ```
 
 **_Note_**: Don't ever let your map's div be at 100% width, or mobile users often can't scroll to any content below the map!  (Especially be careful when using Bootstrap that it doesn't kick the map into 100% width and lock users into "map nav prison".)
+
+Return to the [Best Practices](../BestPractices.md) homepage.

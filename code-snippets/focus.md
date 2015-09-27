@@ -29,3 +29,5 @@ a {
 	outline:none;
 }
 ```
+
+Return to the [Best Practices](../BestPractices.md) homepage.

@@ -47,3 +47,5 @@ Data cells should be associated with their appropriate headers, making it easier
 	</tr>  
 	</table>
 ```
+
+Return to the [Best Practices](../BestPractices.md) homepage.

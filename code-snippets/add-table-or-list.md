@@ -9,3 +9,5 @@ In this way a larger proportion of your audience can benefit from the content yo
 **_Other Notes:_**
 * When designing navigational tools, offer both "route" and "map" options.  
 * Remember that people have different ways of orienting themselves and absorbing geographic information, including perceiving space and spatial concepts.
+
+Return to the [Best Practices](../BestPractices.md) homepage.

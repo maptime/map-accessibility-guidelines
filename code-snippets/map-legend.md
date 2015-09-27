@@ -20,3 +20,5 @@ L.control.layers(baseMaps, overlayMaps, {
 ```
 
 Link your legend to your data to make associations more apparent to users. For example: via an interactive mouseover, clickable popup, etc. Then, use intuitive symbology throughout your map to make your legend supplemental, instead of a necessity for visitors.
+
+Return to the [Best Practices](../BestPractices.md) homepage.

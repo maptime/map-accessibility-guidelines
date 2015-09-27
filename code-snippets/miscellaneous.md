@@ -76,3 +76,5 @@ userDefinedZoomMap.setView({
 	lat:50, lng:0
 }, 2);
 ```
+
+Return to the [Best Practices](../BestPractices.md) homepage.

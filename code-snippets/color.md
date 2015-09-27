@@ -22,3 +22,5 @@ Color plays an incredibly important role in the world and can sway thinking, cha
 Likewise, as seen in the image below, the colors used for a product, web site, business card, or logo cause powerful reactions (especially when flipped!).
 
 ![yahoo-google-icon](https://cloud.githubusercontent.com/assets/5023024/8877212/dea3ca6a-31e9-11e5-969c-2ca63a5e2982.png)
+
+Return to the [Best Practices](../BestPractices.md) homepage.
