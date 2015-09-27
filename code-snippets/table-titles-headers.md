@@ -1,5 +1,8 @@
-### Provide titles and/or headers for data tables:
-Try and refrain from using tables as a layout and use them **_strictly_** to display data that are **logical** and **intuitive**. Tables that are used to organize tabular data should have appropriate table headers (the `<th>` element). For example:
+# Table Headers
+
+**Provide titles and/or headers for data tables.** Try to refrain from using tables as a layout and use them **_strictly_** to display data that are **logical** and **intuitive**.
+
+Tables that are used to organize tabular data should have appropriate table headers (the `<th>` element). For example:
 
 ```html
 <table>
