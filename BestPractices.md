@@ -14,12 +14,13 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 
 
 ## Table of Contents:
-- [**Key principles** for starting conversations about accessibility](#section1)
-- [**Accessibility techniques** & code snippets](#section2)
+- **[Key principles](#section1)** for starting conversations about accessibility
+- **[Accessibility techniques](#section2)** & code snippets
 
 
 <a name="section1">
-## Key principles for starting conversations about accessibility</a>
+## Key principles for starting conversations about accessibility
+</a>
 
 * Focus on the purpose of the map, what story are you trying to tell?  Simplicity is best.  Keep asking: Does everybody need this?
 
@@ -27,7 +28,7 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 
 * Design for a diverse set of users who will interact with your map(s).  Consider users including visually impaired users, users with cognitive disabilities, users with physical or motor limitations, users with different spatial perceptions, etc.  *Note:* Keyboard user != Screen reader user, but Keyboard user ≈ Screen reader user.
 
-* Acquaint yourself with accessibility standars (WebAIM, etc.), but remember accessibility is about people. Only people can evaluate true accessibility. Accessibility evaluation tools (WAVE, etc.) can help facilitate human interaction but it is not the catch-all answer.
+* Acquaint yourself with accessibility standards (WebAIM, etc.), but remember accessibility is about people. Only people can evaluate true accessibility. Accessibility evaluation tools (WAVE, etc.) can help facilitate human interaction but it is not the catch-all answer.
 
 * Something that is dead on mobile, is dead.
 
@@ -39,6 +40,19 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 
 
 <a name="section2"/>  
-## Accessibility techniques & code snippets</a>
+## Accessibility techniques & code snippets
+</a>
 
-ADD LINKS to /code-snippets folder here when we're done populating those!
+* [Add a table and/or list](../code-snippets/add-table-or-list.md)
+* [Alternative text](../code-snippets/alt-text.md)
+* [Color](../code-snippets/color.md)
+* [Focus](../code-snippets/focus.md)
+* [HTML structure](../code-snippets/html-structure.md)
+* [JavaScript](../code-snippets/javascript.md)
+* [Links](../code-snippets/links.md)
+* [Map legend](../code-snippets/map-legend.md)
+* [Miscellaneous snippets](../code-snippets/miscellaneous.md)
+* [Mobile](../code-snippets/mobile.md)
+* [Non-HTML content](../code-snippets/non-html-content.md)
+* [Skip navigation](../code-snippets/skip-navigation.md) (e.g. Skip to content/table)
+* [Table headers](../code-snippets/table-headers.md)
