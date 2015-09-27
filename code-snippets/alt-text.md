@@ -16,6 +16,6 @@ However, not all images are as clear cut. For example, if you have an image of a
 
 A good example within your content could be:
 ```html
-<!-- An full example of the alternative text tag -->
+<!-- A full example of the alternative text tag -->
 <img src="/images/park_map.png" alt="Regional park map" width="400" height="800" border="0">
 ```
