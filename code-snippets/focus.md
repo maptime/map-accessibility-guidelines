@@ -13,7 +13,7 @@ The focus is a way to make your user experience similar for *many* different vis
 * Set the hover and focus CSS transitions equal to each other as the hover and focus should have the *same functionality* throughout an application. For example:
 ```css
 :hover, :focus {
-	/* css goes here */
+	/* CSS goes here */
 }
 ```
 
