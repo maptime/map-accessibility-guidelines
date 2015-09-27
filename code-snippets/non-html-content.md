@@ -1,8 +1,6 @@
 # Non-HTML Content
 
-**Ensure accessibility of non-HTML content**.
-
-Such as:
+**Ensure accessibility of non-HTML content**. Such as:
 * PDF documents
 * Forms
 * Microsoft Word documents
