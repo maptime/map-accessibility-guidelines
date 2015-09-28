@@ -1,6 +1,6 @@
 # Focus
 
-Use a focus to enhance the experience for all users and a great practice to use. **Do not** remove the focus for any users!
+Use a focus to enhance the experience for all users, and it is a great practice to use. **Do not** remove the focus for any users!
 
 The focus is a way to make your user experience similar for *many* different visitors is to provide visual focus indication for keyboard focus.
 

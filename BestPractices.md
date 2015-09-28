@@ -43,16 +43,16 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 ## Accessibility techniques & code snippets
 </a>
 
-* [Add a table and/or list](/code-snippets/add-table-or-list.md)
-* [Alternative text](/code-snippets/alt-text.md)
-* [Color](/code-snippets/color.md)
-* [Focus](/code-snippets/focus.md)
-* [HTML structure](/code-snippets/html-structure.md)
-* [JavaScript](/code-snippets/javascript.md)
-* [Links](/code-snippets/links.md)
-* [Map legend](/code-snippets/map-legend.md)
-* [Miscellaneous snippets](/code-snippets/miscellaneous.md)
-* [Mobile](/code-snippets/mobile.md)
-* [Non-HTML content](/code-snippets/non-html-content.md)
-* [Skip navigation](/code-snippets/skip-navigation.md) (e.g. Skip to content/table)
-* [Table headers](/code-snippets/table-headers.md)
+* **[Add a table and/or list](/code-snippets/add-table-or-list.md)**: Don’t have the map be your only format for data display, supplement your map with a table and/or list (i.e. directions/routing, data display, etc.).
+* **[Alternative text](/code-snippets/alt-text.md)**: Alternative text provides a textual alternative to non-text content in web pages (i.e. static maps, and/or images).
+* **[Color](/code-snippets/color.md)**: Use contrast, texture, and human behaviors to enable and enhance user interaction.
+* **[Focus](/code-snippets/focus.md)**: A focus can enhance the experience for all users and is a great practice to use.
+* **[HTML structure](/code-snippets/html-structure.md)**: Organize your HTML's document structure so headings, lists, and other structural elements provide meaning and structure to web pages.
+* **[JavaScript](/code-snippets/javascript.md)**: The hover and focus should have the same functionality throughout an application.
+* **[Links](/code-snippets/links.md)**: very link should make sense out of context.
+* **[Map legend](/code-snippets/map-legend.md)** Make your legend visible, and clearly linked to your data.
+* **[Miscellaneous snippets](/code-snippets/miscellaneous.md)**: Miscellaneous code snippets to help you along the way!
+* **[Mobile](/code-snippets/mobile.md)**: Think mobile first, remember anything dead on mobile is dead.
+* **[Non-HTML content](/code-snippets/non-html-content.md)**: Ensure accessibility of non-HTML content.
+* **[Skip navigation](/code-snippets/skip-navigation.md)** (e.g. Skip to content/table): Allow users to skip repetitive elements on the page and get to the good stuff!
+* **[Table headers](/code-snippets/table-headers.md)**: Provide titles and/or headers for data tables.
