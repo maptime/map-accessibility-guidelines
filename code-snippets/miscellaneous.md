@@ -1,7 +1,7 @@
 # Miscellaneous Code Snippets
 
-## Leaflet Basemap Tiles
-By default Basemap Tiles `L.tileLayer` do not include an `alt` tag and do **not** meet accessibility requirements. To ensure the tiles have an `alt` tag add in a Leaflet map listener (`tileloadstart`) and set the attribute (`alt`).
+## Leaflet L.tileLayer
+By default Leaflet's `L.tileLayer` does not include an `alt` tag and does **not** meet general web accessibility requirements. To ensure the tiles have an `alt` tag add in a Leaflet map listener (`tileloadstart`) and set the attribute (`alt`).
 
 ```javascript
 //Basemap: Mapquest OSM
