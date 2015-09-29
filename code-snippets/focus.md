@@ -2,7 +2,12 @@
 
 Use a focus to enhance the experience for all users, and it is a great practice to use. **Do not** remove the focus for any users!
 
+<p align="center">![focus-like-a-cat](http://scienceinseconds.com/cmsFiles/pageImages/LolCatRenderer-20.jpg)</p>
+
 The focus is a way to make your user experience similar for *many* different visitors is to provide visual focus indication for keyboard focus.
+
+An example of a focus in-action:  
+![focus-example](http://bitsofco.de/img/blog/15/2.1.1.gif)
 
 * The default focus may need to be changed if it cannot be seen *clearly* by a user. Sometimes adding a border to the CSS, including changing the color goes a long way. For example:  
 ```css
