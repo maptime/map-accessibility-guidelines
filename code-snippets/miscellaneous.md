@@ -18,7 +18,7 @@ mapquestOSM.on('tileloadstart', function (tileEvent) {
 });
 ```
 
-## Leaflet Accessible Zoom Control  
+## Leaflet Accessible Zoom Control, [source](http://danielmontague.com/projects/easyButton.js/v1/examples/#fancier-disable)
 
 CSS:
 
