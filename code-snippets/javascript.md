@@ -22,4 +22,19 @@ For example:
 }
 ```
 
+## Tap
+If you turn off pan, zoom, and other mouse/keyboard functionality don't forget to disable the `tap` handler as well to create a similar experience with touch devices.
+
+For example:
+```javascript
+// Disable drag and zoom handlers.
+map.dragging.disable();
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
+
+// Disable the tap handler, if present.
+if (map.tap) map.tap.disable();
+```
+
 Return to the [Best Practices](../BestPractices.md) homepage.
