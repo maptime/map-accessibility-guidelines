@@ -1,5 +1,23 @@
 # Miscellaneous Code Snippets
 
+## Leaflet Basemap Tiles
+By default Basemap Tiles `L.tileLayer` do not include an `alt` tag and do **not** meet accessibility requirements. To ensure the tiles have an `alt` tag add in a Leaflet map listener (`tileloadstart`) and set the attribute (`alt`).
+
+```javascript
+//Basemap: Mapquest OSM
+var mapquestOSM = L.tileLayer('https://otile1-s.mqcdn.com/tiles/1.0.0/{type}/{z}/{x}/{y}.{ext}', {
+	type: 'map',
+	ext: 'jpg',
+	attribution: 'Tiles Courtesy of MapQuest &mdash; Map data &copy; OpenStreetMap',
+	subdomains: '1234',
+});
+
+//Add an <alt> tag to the Leaflet tile layers on the initial tile load and when a tile load has started
+mapquestOSM.on('tileloadstart', function (tileEvent) {
+	tileEvent.tile.setAttribute('alt', 'Map tile image');
+});
+```
+
 ## Leaflet Accessible Zoom Control  
 
 CSS:
