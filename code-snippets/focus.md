@@ -2,7 +2,7 @@
 
 Use a focus to enhance the experience for all users, and it is a great practice to use. **Do not** remove the focus for any users!
 
-<p align="center">![focus-like-a-cat](http://scienceinseconds.com/cmsFiles/pageImages/LolCatRenderer-20.jpg)</p>
+![focus-like-a-cat](http://scienceinseconds.com/cmsFiles/pageImages/LolCatRenderer-20.jpg)
 
 The focus is a way to make your user experience similar for *many* different visitors is to provide visual focus indication for keyboard focus.
 
