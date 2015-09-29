@@ -15,15 +15,9 @@ For example, with Leaflet:
 <html>
 
   <head>
-
-    <!-- Viewport for all browser sizes, including mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <!-- / Viewport -->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!-- Viewport for all browser sizes, including mobile -->
     <title>Map Title</title>
-
-    <!-- CSS styling -->
-    <style>
+    <!-- CSS styling --><style>
       html, body, #map-container {
       	height: 100%;
       	width: 100%;
@@ -33,19 +27,15 @@ For example, with Leaflet:
         width: auto;
         height: 100%;
       }
-    </style>
-    <!-- / CSS styling -->
-
+    </style><!-- / CSS styling -->
   </head>
 
   <body>
-
-  <!-- Map container to ensure the map takes up 100% of the width and height in the browser -->
-  <div id="map-container">
+  <div id="map-container"><!-- Map container to ensure the map takes up 100% of the width and height in the browser -->
     <div id="map"></div> <!-- The map div, where the map resides -->
   </div>
-
   </body>
+
 </html>
 ```
 
