@@ -1,6 +1,6 @@
 # Skip Navigation
 
-**Allow users to skip repetitive elements on the page.** You should provide a method that allows users to skip navigation or other elements that repeat on every page.
+**Allow users to skip repetitive elements on the page**, which users can access by using the `tab` key on their keyboard. You should provide a method that allows users to skip navigation or other elements that repeat on every page.
 
 ![skipper-gilligans-island](http://images4.fanpop.com/image/photos/20600000/Alan-Hale-Jr-as-Skipper-gilligans-island-20605756-380-304.jpg)
 
