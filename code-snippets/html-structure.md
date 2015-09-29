@@ -7,6 +7,8 @@ Blind users with screen readers have a difficult time navigating through content
 
 Headings are a key component as they are also read by search engines and can help direct **all** users to your site. Plus, good organization makes it easier to update your code, especially during refactoring.
 
+![cat-organization](http://s3.amazonaws.com/pbblogassets/uploads/2013/03/funny-pictures-cat-searches-for-a-file.jpg)
+
 ## Table Headers
 Avoid using empty headers, especially within tables, as this will confuse screen readers, and be harder for you if you need to refactor these areas in your code.
 
