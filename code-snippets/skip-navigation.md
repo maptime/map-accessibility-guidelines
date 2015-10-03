@@ -30,7 +30,7 @@ To enable, you could use some of the following html:
 If you have data that can be displayed in a table that is provided with your map, you can created a **"Skip to Table"** option to your users.
 
 For example:
-![skip-to-table](https://cloud.githubusercontent.com/assets/5023024/10154228/8a7195b0-662a-11e5-8d9d-9f38e6ca5eb1.png)
+![skip-to-table](https://cloud.githubusercontent.com/assets/5023024/10264147/d9f85bda-69c9-11e5-99f1-dc6b3a5b4d71.gif)
 
 To enable, you could use some of the following html:
 ```html
