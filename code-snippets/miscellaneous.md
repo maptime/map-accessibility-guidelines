@@ -19,6 +19,7 @@ mapquestOSM.on('tileloadstart', function (tileEvent) {
 ```
 
 ## Leaflet Accessible Zoom Control, [source](http://danielmontague.com/projects/easyButton.js/v1/examples/#fancier-disable)
+By default Leaflet's zoom control buttons (`+`, `-`) do **not** meet general web accessibility requirements. To ensure the button meet the requirements, you can use the following CSS and JavaScript:
 
 CSS:
 
