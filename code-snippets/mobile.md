@@ -7,6 +7,7 @@ Be aware that your users may only have Internet access via phones or other mobil
 In fact, as of 2013:
 > "34% of cell internet users go online mostly using their phones, and not using some other device such as a desktop or laptop computer." -[Pew Research Center](http://www.pewinternet.org/fact-sheets/mobile-technology-fact-sheet)
 
+## Viewport
 In your HTML you can insert a `meta name="viewport"` tag that changes the view of your website no matter the size of their browser (desktop or mobile).
 
 For example, with Leaflet:  
@@ -44,5 +45,18 @@ For example, with Leaflet:
 ```
 
 **_Note_**: Don't ever let your map's div be at 100% width, or mobile users often can't scroll to any content below the map!  (Especially be careful when using Bootstrap that it doesn't kick the map into 100% width and lock users into "map nav prison".)
+
+## Media Queries
+The `@media` rule is used to define different style rules for different media types/devices.
+
+For example:  
+```css
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+```
+In this example when the viewport, or screen size, is 480 pixels wide or larger, change the `background-color` to light green. Otherwise if the viewport is smaller than 480 pixels in width the `<body>`'s `background-color` will be unchanged.
 
 Return to the [Best Practices](../BestPractices.md) homepage.
