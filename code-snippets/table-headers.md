@@ -4,7 +4,9 @@
 
 Tables that are used to organize tabular data should have appropriate table headers (the `<th>` element).
 
-Data cells should be associated with their appropriate headers, making it easier for screen reader users to navigate and understand the data table using `scope` in the table headers and values. For example:
+Data cells should be associated with their appropriate headers, making it easier for screen reader users to navigate and understand the data table using `scope` in the table headers and values. The `scope` attribute identifies whether a table header is a column header or a row header enabling an experience for screen readers.
+
+For example:
 
 ```html
 	<table>  
