@@ -1,6 +1,6 @@
 # Alternative Text
 
-Alternative text provides a textual alternative to non-text content in web pages (i.e. static maps, and/or images). Alternative text is especially helpful for people who are blind and rely on a screen reader to have the content of the website read to them.
+Alternative text provides a textual alternative to non-text content in web pages (i.e. static maps, and/or images). To users with normal vision, there is no usability change, and unless they look at your HTML code, will not see the addition of alternative text. However, alternative text can be extremely helpful for people who are blind and rely on a screen reader to have the content of the website read to them. 
 
 When using alternative text, describe the **_content and function_** providing a semantic meaning and description of the images, which is also used by search engines. For example, if you have an image thumbnail of a regional park map you could label the image alternative text to reflect the content of the image:
 ```html
