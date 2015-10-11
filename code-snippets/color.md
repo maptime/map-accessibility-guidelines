@@ -6,15 +6,15 @@
 ![color-contrast](http://www.usertesting.com/blog/wp-content/uploads/2014/12/color-contrast.png)
 
 ## 2. Patterns  
-**Don’t use color alone to convey information**; consider patterns, line widths, etc.
+**Don’t use color alone to convey information**; consider patterns, line widths, etc. as alternative ways of highlighting differences between objects on your maps.
 
 A portion of the population, approximately 8% of men and 0.5% of women are affected by some form of color blindness. Color blindness, better described as color vision deficiency, is the absence of seeing colors in their full capacity. While there are multiple forms of deficiency, red/green color blindness is the most common.
 
-For example, normal vision can see red and green colors whereas red/green color blindness cannot distinguish between the background and text:
+For example, normal vision can see red and green colors whereas red/green color blindness cannot distinguish between the background and text. Remember especially: red + green = bad!:
 
 ![colorblind-example](http://www.usertesting.com/blog/wp-content/uploads/2014/12/color-blind-example.png)
 
-While we use color to highlight or compliment what is already visible, do not use color alone to convey information. That information may not be available to a person who is colorblind, and will be unavailable to screen reader users.  Remember especially: red + green = bad!
+While it may be a good option to use color to highlight or compliment what is already visible, do not use color alone to convey information. That information may not be available to a person who is colorblind, and will be unavailable to screen reader users.  As an example of how to help correct for this, see the map below, which is more accessible to users who are color blind, as it uses both color *and* shape to convey the difference between icons:
 
 ![patterns](https://apps.health.state.mn.us/mndata-rest/app/resource/rest/files/PM25.png)
 

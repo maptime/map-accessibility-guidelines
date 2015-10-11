@@ -13,16 +13,9 @@ However, best practices in accessibility can impact **all** users in a good way.
 Listed below is a set of guidelines for developers, cartographers, GIS specialists, geographers, and civic hackers to consider when creating projects that include static and interactive web maps.
 
 
-## Table of Contents:
-- **[Key principles](#section1)** for starting conversations about accessibility
-- **[Accessibility techniques](#section2)** & code snippets
-
-
-<a name="section1">
 ## Key principles for starting conversations about accessibility
-</a>
 
-* Focus on the purpose of the map, what story are you trying to tell?  Simplicity is best.  Keep asking: Does everybody need this?
+* Focus on the purpose of the map: what story are you trying to tell?  Simplicity is best.  Keep asking: "Does everybody need this?"
 
 * Make accessibility a developer-side concern.  Start this conversation from the very beginning of a project—don’t make it an afterthought.  Consider "accessibility" and "usability" as part of the same conversation.
 
@@ -30,7 +23,7 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 
 * Acquaint yourself with accessibility standards (WebAIM, etc.), but remember accessibility is about people. Only people can evaluate true accessibility. Accessibility evaluation tools (WAVE, etc.) can help facilitate human interaction but it is not the catch-all answer.
 
-* Something that is dead on mobile, is dead.
+* Something that is dead on mobile, is dead.  Make mobile a priority!
 
 * Enable the experience, don't make the experience.  
 
@@ -39,9 +32,7 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 * Accessibility is not a barrier to innovation.  It's an opportunity to share great map experiences with more users!
 
 
-<a name="section2"/>  
 ## Accessibility techniques & code snippets
-</a>
 
 * **[Add a table and/or list](/code-snippets/add-table-or-list.md)**: Don’t have the map be your only format for data display, supplement it with a table and/or list (i.e. directions/routing, data display, etc.).
 * **[Alternative text](/code-snippets/alt-text.md)**: Provide a textual alternative to non-text content in web pages (i.e. static maps, and/or images).
