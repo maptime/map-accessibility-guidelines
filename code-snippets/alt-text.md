@@ -17,12 +17,12 @@ Screen readers will read the alternative text of images, if alt text is present 
 
 
 ## Empty tags  
-However, not all images are as clear cut. For example, if you have an image of a girl that is being used as context of human health an alternative text of `<alt="girl">` isn't helpful for those with screen readers.
+In some cases, for images that serve no purpose beyond decoration, you may not need to add alternative text.  For example, if you have a decorate image of a girl that is being used simply to provide some visual appeal on a human health website, an alternative text of `<alt="girl">` isn't helpful for those with screen readers.
 
-In fact, there is no right answer in this case as it is difficult to provide content and/or function to a screen reader so in the case an empty alt tag may be the best option. Screen readers ignore images without alternative text and say nothing, but users can set their preferences to read the file name. For example:
+In this case, an empty alt tag may be the best option. Screen readers ignore images without alternative text and say nothing, but users can set their preferences to read the file name. For example:
 ```html
 <!-- Sometimes an empty alternative text tag is the answer -->
-<alt="">
+<img src="/images/girl.png" alt="">
 ```
 
 Return to the [Best Practices](../BestPractices.md) homepage.

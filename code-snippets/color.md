@@ -19,14 +19,12 @@ While it may be a good option to use color to highlight or compliment what is al
 ![patterns](https://apps.health.state.mn.us/mndata-rest/app/resource/rest/files/PM25.png)
 
 ## 3. Human Perception
-**People see color before they absorb anything else**. Many of the most recognizable brands in the world rely on color for instant recognition.
-
-Color plays an incredibly important role in the world and can sway thinking, change actions, and cause reactions. It can irritate or soothe one's eyes, raise blood pressure, or even suppress appetite. As a powerful form of communication, color is irreplaceable. For example: Red means *stop* and green means *go*.
-
-![stoplight](http://findicons.com/files/icons/2320/x_mac_general/128/traffic_lights.png)
-
-Likewise, as seen in the image below, the colors used for a product, web site, business card, or logo cause powerful reactions (especially when flipped!).
+People see color before they absorb anything else. Many of the most recognizable brands in the world rely on color for instant recognition.  Color can also carry cultural connotations that can sway thinking, change actions, and cause reactions. It can irritate or soothe one's eyes, raise blood pressure, or even suppress appetite.  As seen in the image below, the colors used for a product, web site, business card, or logo cause powerful reactions (especially when flipped!).
 
 ![yahoo-google-icon](https://cloud.githubusercontent.com/assets/5023024/8877212/dea3ca6a-31e9-11e5-969c-2ca63a5e2982.png)
+
+As a powerful form of communication, it is important to consider the message your color choices are sending. For example: Red or black may connote "stop" or "bad", and green may connote "go" or "good".  In general, when displaying data on a map, you will want to look for 'neutral' colors that don't confuse or bias your message.
+
+![stoplight](http://findicons.com/files/icons/2320/x_mac_general/128/traffic_lights.png)
 
 Return to the [Best Practices](../BestPractices.md) homepage.

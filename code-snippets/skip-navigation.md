@@ -12,8 +12,6 @@ For example:
 
 The "Skip to" navigation allows those with screen readers to get to content easily instead of having to tab through many non-relevant pieces of information.
 
-**_Note:_** Half of skip links don't work as a CSS element of `display:none` disables the skip to content or the `<div id>` has changed over time.
-
 To enable, you could use some of the following html:
 ```html
 <body>
@@ -24,6 +22,9 @@ To enable, you could use some of the following html:
 
 </body>
 ```
+
+**_Note:_** When making skip links, also make sure you don't hide them with CSS!  For example, *do not* set skip links as `display:none`; if you do this, they won't show up on your page.  Also try to label your skips links and the divs they target with generic enough names that you can recycle them across pages: for example, `<div id="#main-content">`.  This helps make sure your skip links don't break if you update specific divs within your page content over time.
+
 
 ## Skip to Table
 
