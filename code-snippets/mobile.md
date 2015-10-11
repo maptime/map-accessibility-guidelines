@@ -59,4 +59,16 @@ For example:
 ```
 In this example when the viewport, or screen size, is 480 pixels wide or larger, change the `background-color` to light green. Otherwise if the viewport is smaller than 480 pixels in width the `<body>`'s `background-color` will be unchanged.
 
+## Innovation
+At first designing an application to work on mobile devices seems overwhelming, but in time it can be really fun!
+
+You can turn off particular functionality, add in structure/organization, or even change CSS styling to enhance a user's experience while viewing in mobile (Remember the **KISS** principle)!
+
+For example, a desktop user would experience the following:
+![desktop-user](https://cloud.githubusercontent.com/assets/5023024/10415141/a00f0462-6fb1-11e5-8b0a-4e41f183fadd.png)
+
+While a mobile user would experience the following:
+![mobile-user-1](https://cloud.githubusercontent.com/assets/5023024/10415140/a00d46c2-6fb1-11e5-8174-c0496c30af5b.png)
+![mobile-user-2](https://cloud.githubusercontent.com/assets/5023024/10415142/a0119d08-6fb1-11e5-8784-54cf2bbafd6b.png)
+
 Return to the [Best Practices](../BestPractices.md) homepage.
