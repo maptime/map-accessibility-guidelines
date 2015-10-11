@@ -67,8 +67,7 @@ You can turn off particular functionality, add in structure/organization, or eve
 For example, a desktop user would experience the following:
 ![desktop-user](https://cloud.githubusercontent.com/assets/5023024/10415141/a00f0462-6fb1-11e5-8b0a-4e41f183fadd.png)
 
-While a mobile user would experience the following:
-<img style="-webkit-user-select: none;" src="https://cloud.githubusercontent.com/assets/5023024/10415140/a00d46c2-6fb1-11e5-8174-c0496c30af5b.png" width="297" height="502">
-<img style="-webkit-user-select: none;" src="https://cloud.githubusercontent.com/assets/5023024/10415142/a0119d08-6fb1-11e5-8784-54cf2bbafd6b.png" width="297" height="502">
+While a mobile user would experience the following:  
+<img style="-webkit-user-select: none;" src="https://cloud.githubusercontent.com/assets/5023024/10415140/a00d46c2-6fb1-11e5-8174-c0496c30af5b.png" width="297" height="502"><img style="-webkit-user-select: none;" src="https://cloud.githubusercontent.com/assets/5023024/10415142/a0119d08-6fb1-11e5-8784-54cf2bbafd6b.png" width="297" height="502">
 
 Return to the [Best Practices](../BestPractices.md) homepage.
