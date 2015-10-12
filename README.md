@@ -5,7 +5,7 @@ Check out a summary of some [Best Practices](/BestPractices.md) and accompanying
 
 **Want to help contribute to this repo?** Visit our ['How to Contribute' page](../../wiki/How-to-Contribute) for information on how to get started!
 
-## NACIS Presentation :earth_americas:
+## 2015 NACIS Conference :earth_americas:
 On **Thurs, Oct. 15th, 2015** from **4:00-5:10 p.m.** we will be presenting at the [NACIS Conference](http://www.nacis.org) in Minneapolis in the **[Community-Oriented Cartography](http://sched.co/3l8M)** session in **Charles Frost** *(225 3rd Ave S, Minneapolis, MN 55401)* with our abstract titled **_Starting Conversations for More Accessible Maps_**.
 
 ### Abstract
