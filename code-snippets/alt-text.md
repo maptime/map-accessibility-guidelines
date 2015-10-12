@@ -5,7 +5,7 @@ Alternative text (`<alt>`) provides a textual alternative to non-text content in
 To sighted users, there is generally no usability change.  Unless they look at your HTML code or decide to load the page without loading the accompanying image files (for example, for users with limited mobile data plans), sighted users will generally not see the addition of alternative text.  However, alternative text can be extremely helpful for people who are blind and rely on a screen reader to have the content of the website read to them.
 
 ## Use  
-Us alternative text to describe the **_content and function_** of each image on your page.  The goal is to providing a semantic meaning and description for each image.  Alternative text, incidentally, can also be used by search engines.
+Use alternative text to describe the **_content and function_** of each image on your page.  The goal is to providing a semantic meaning and description for each image.  Alternative text, incidentally, can also be used by search engines.
 
 For example, if your website includes an image of a map about asthma organized by ZIP code, you should label the image alternative text to reflect the content of the map:
 
