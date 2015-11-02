@@ -5,6 +5,8 @@ Make your best effort to ensure that [JavaScript event handlers](http://webaim.o
 
 **_Note:_** This is not always possible with interactive maps but make your best effort while designing your map if other alternatives are possible.
 
+![click-focus-hover-example](https://cloud.githubusercontent.com/assets/5023024/10872387/663784d2-80c6-11e5-8d48-3a08e12633f6.gif)
+
 For example:  
 ```javascript
 $('#target').on('click hover', function () {
