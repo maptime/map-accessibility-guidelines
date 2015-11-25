@@ -1,6 +1,6 @@
 # Table Headers
 
-Provide titles and headers for data tables.  Try to refrain from using tables as layout elements for your web page.  Instead, use tables **_strictly)** to display data that are **logical**, **intuitive**, and **structured**.
+Provide titles and headers for data tables.  Try to refrain from using tables as layout elements for your web page.  Instead, use tables **_strictly_** to display data that are **logical**, **intuitive**, and **structured**.
 
 Tables that are used to organize tabular data should have appropriate table headers (the `<th>` element).
 
