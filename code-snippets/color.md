@@ -1,7 +1,11 @@
 # Color
 
+1. [Contrast](#1-contrast)
+2. [Patterns](#2-patterns)
+3. [Human Perception](#3-human-perception)
+
 ## 1. Contrast  
-**_Contrast impacts everybody_**. Ensure sufficient contrast exists between text and its background. Common sense is vital when considering color contrast, if you can't differentiate the colors, nobody else can. Use simple, high-contrast color schemes.
+**_Contrast impacts everybody_**. Ensure sufficient contrast exists between text and its background. Common sense is vital when considering color contrast, _if you can't differentiate the colors, nobody else can_. Use simple, high-contrast color schemes.
 
 ![color-contrast](http://www.usertesting.com/blog/wp-content/uploads/2014/12/color-contrast.png)
 
@@ -14,7 +18,7 @@ For example, normal vision can see red and green colors whereas red/green color 
 
 ![colorblind-example](http://www.usertesting.com/blog/wp-content/uploads/2014/12/color-blind-example.png)
 
-While it may be a good option to use color to highlight or compliment what is already visible, do not use color alone to convey information. That information may not be available to a person who is colorblind, and will be unavailable to screen reader users.  As an example of how to help correct for this, see the map below, which is more accessible to users who are color blind, as it uses both color *and* shape to convey the difference between icons:
+While it may be a good option to use color to highlight or compliment what is already visible, do not use color alone to convey information. That information may not be available to a person who is colorblind, and will be unavailable to screen reader users.  As an example of how to help correct for this, see the map below, which is more accessible to users who are color blind, as it uses _both color and shape_ to convey the difference between icons:
 
 ![patterns](https://apps.health.state.mn.us/mndata-rest/app/resource/rest/files/PM25.png)
 
