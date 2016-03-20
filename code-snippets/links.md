@@ -11,6 +11,26 @@ Learn more about [GitHub](http://www.github.com).
 
 ```html
 Learn more about <a href="http://www.github.com">GitHub</a>.
+```  
+
+## New Windows  
+_When opening a link it is best to open it in the **same window, or tab**._ Opening a link in a new window, also known as `target="_blank"`, causes a few problems such as:  
+
+* Screen reader users, and users with certain cognitive impairments can become disoriented when a new window is opened.  
+* The back button, the most used button in the browser, is broken.  
+* Some user agents, such as kiosks, can't open new windows, or tabs.  
+
+However, there are times where it is appropriate to open a link in a new window, such as opening a map application.   _If you must open a link in a new window, you should alert the user._   
+
+**Bad example:**  
+~~Learn more about [GitHub](http://www.github.com).~~  
+
+**Good example:**  
+Learn more about [Github (new window)](http://www.github.com).   
+
+```html
+Learn more about <a href="http://www.github.com" target="_blank">GitHub (new window)</a>.
 ```
+
 
 Return to the [Best Practices](../BestPractices.md) homepage.
