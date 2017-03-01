@@ -60,3 +60,4 @@ and a second one when navigating using the tab key. -->
   <li tabindex="3">Establishments</li>  
 </ul>  
 ```  
+Return to the [Best Practices](../BestPractices.md) homepage.
