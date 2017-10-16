@@ -47,3 +47,4 @@ Listed below is a set of guidelines for developers, cartographers, GIS specialis
 * **[Non-HTML content](/code-snippets/non-html-content.md)**: Ensure accessibility of non-HTML content (e.g. PDF's, Microsoft Word documents, etc.).
 * **[Skip navigation](/code-snippets/skip-navigation.md)** (e.g. Skip to content/table): Allow users to skip repetitive elements on the page and get to the reason they visit your page, aka the good stuff!
 * **[Table headers](/code-snippets/table-headers.md)**: Provide titles and/or headers for data tables to provide context to users.
+* **[Tab index](/code-snippets/tab-index.md)**: Modify tab index to alter if an element is focusable, and if so what order it is accessed on the map/page.  
