@@ -21,34 +21,37 @@ For example:
 
 ## 2. Tab Index = -1  
 * Like `tabindex="0"`, provides special meaning and distinct functionality in HTML.  
-* Can receive "programmatic" focus, meaning focus can be set to the element through scripting, links, etc. For example using `element.focus()`.  
+* Can receive "programmatic" focus, meaning focus can be set to the element through scripting, links, etc. For example using `element.focus()`. However it can’t be reached by someone using the `tab` key to navigate through content.    
 * **Removes the element from the default navigation flow** and allows it to receive programmatic focus. This means the focus can be set to it from a link, or with scripting.  
 * **Do not use to any element that must be keyboard navigable**, such as a link or button that sighted users can click on with the mouse.  
 
 For example:  
 ```html  
-<!-- Skip to link example: If you implement a "skip to" section in your map you can disable 
-the default tabbing option for the user, but programmatically send a user to the area if 
+<!-- Skip to link example: If you implement a "skip to" section in your map you can disable
+the default tabbing option for the user, but programmatically send a user to the area if
 they click the "skip to" link -->  
 
 <!-- Skip to link, shown only to screen readers and on focus -->
 <a class="sr-only sr-only-focusable" href="#main">Skip to main content</a>  
 
-<!-- Main content, where you can set programmatic focus, but a user can't tab to this area -->
-<div id="main" tabindex="-1">Main content placed here.</div>  
+<!-- Content where you can set programmatic focus, but a user can't tab to this area -->
+<!-- A good example is if you have a div set up to view Google Map Street View images, that a screen reader wouldn't have interest in. -->
+<div role="group" id="googleMapStreetView" aria-labelledby="Google Map Street View" tabindex="-1">
+  <h2>Street View</h2>
+</div>
 ```   
 
 ## 3. Tab Index >= 1
 * Defines an explicit tab order. **This is almost always a bad idea.**  
-* If used, any elements greater than one will receive keyboard focus before elements with no `tabindex` value, or `tabindex='0'`.  
-* If at all possible, do not use positive tabindex values. Instead, **fix the navigation order by restructuring the HTML.**   
+* If used, any elements on the page with a `tabindex` greater than 1 will receive keyboard focus before elements with no `tabindex` value, or `tabindex='0'`.  
+* If at all possible, do not use positive `tabindex` values. Instead, **fix the navigation order by restructuring the HTML.**   
 
 For example:   
 ```html   
-<!-- Unordered tabindex list example using basemap layers & 'feature' layers:  The structured order 
-will be seen visually, and read initially by screen readers in the same manner. However, if a user 
-tabs through the page, they will see/hear a different order. This behavior can create confusion to 
-screen reader users who are presented with two different page orders, one when reading the page, 
+<!-- Unordered tabindex list example using basemap layers & 'feature' layers:  The structured order
+will be seen visually, and read initially by screen readers in the same manner. However, if a user
+tabs through the page, they will see/hear a different order. This behavior can create confusion to
+screen reader users who are presented with two different page orders, one when reading the page,
 and a second one when navigating using the tab key. -->  
 
 <ul>  
