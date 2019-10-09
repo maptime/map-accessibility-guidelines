@@ -6,7 +6,7 @@ Check out a summary of some [Best Practices](/BestPractices.md) and accompanying
 **Want to help contribute to this repo?** Visit our ['How to Contribute' page](../../wiki/How-to-Contribute) for information on how to get started!
 
 ## Project History
-This project originated in Feburary 2015 as part of the [Hennepin County Geo:Code](http://www.hennepin.us/geocode) event in Minneapolis, Minnesota.  Other groups who have supported or contributed to this project include:  
+This project originated in Feburary 2015 as part of the [Hennepin County Geo:Code](http://www.hennepin.us) event in Minneapolis, Minnesota.  Other groups who have supported or contributed to this project include:  
 * [Open Twin Cities](http://opentwincities.org)  
 * [Maptime MSP](http://maptime.io/msp)    
 * [Maptime HQ](http://maptime.io)   
