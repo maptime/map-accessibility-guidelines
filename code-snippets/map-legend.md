@@ -1,6 +1,6 @@
 # Map Legend
 
-**Make your legend visible, and clearly linked to your data**, and if possible, expanded by default.
+**Make your legend visible, and clearly linked to your data**, and [if possible](#a-word-of-caution), expanded by default.
 
 Some mapping libraries, such as Leaflet.js, do not have a legend expanded by default, even in larger browser windows.
 
@@ -30,6 +30,10 @@ L.control.layers(baseMaps, overlayMaps, {
 And, voila! You now have an expanded legend! :stuck_out_tongue_winking_eye:
 
 <img width="224" alt="screenshot of Leaflet legend fully expanded" src="https://cloud.githubusercontent.com/assets/5023024/10264291/c0d4262c-69cc-11e5-8fec-865d704e56a0.png">
+
+## A word of caution
+
+If the legend contains more than just a few interactive elements, such as buttons and/or links, consider **not** expanding the legend by default. Otherwise it can take a long time for keyboard-only users to reach the main content area, and may cause physical pain for some users.
 
 ## Other Legend Tips
 Link your legend to your data to make associations more apparent to users. For example: via an interactive mouseover, clickable popup, etc. Then, use intuitive symbology throughout your map to make your legend supplemental, instead of a necessity for visitors.
