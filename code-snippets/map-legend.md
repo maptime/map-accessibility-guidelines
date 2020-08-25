@@ -1,6 +1,6 @@
 # Map Legend
 
-**Make your legend visible, and clearly linked to your data**, and [if possible](#a-word-of-caution), expanded by default.
+**Make your legend visible, and clearly linked to your data**, and if possible, expanded by default.
 
 Some mapping libraries, such as Leaflet.js, do not have a legend expanded by default, even in larger browser windows.
 
