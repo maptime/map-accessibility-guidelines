@@ -31,7 +31,7 @@ And, voila! You now have an expanded legend! :stuck_out_tongue_winking_eye:
 
 <img width="224" alt="screenshot of Leaflet legend fully expanded" src="https://cloud.githubusercontent.com/assets/5023024/10264291/c0d4262c-69cc-11e5-8fec-865d704e56a0.png">
 
-## A word of caution
+## A Word Of Caution
 
 If the legend contains more than just a few interactive elements, such as buttons and/or links, consider **not** expanding the legend by default. Otherwise it can take a long time for keyboard-only users to reach the main content area, and may cause physical pain for some users.
 
